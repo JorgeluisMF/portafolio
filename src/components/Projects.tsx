@@ -1,12 +1,34 @@
 // src/components/Projects.tsx
 ``
+import agenciaViajesImg from '/public/assets/AgenciaViajes.png'
+import schoolSystemImg from '/public/assets/SchoolSystem.png'
+import journalAppImg from '/public/assets/JournalApp.png'
+
 export default function Projects() {
     
-  const projects = [
-    { id: 1, title: 'JournalApp', description: 'Projecto de notas, creado con react y firebase, sistema de authenticacion y sistema de CRUD para las notas', image:'/public/assets/JournalApp.png', link: 'https://react-proyects-6fedb.web.app' },
-    { id: 2, title: 'Agencia de Viajes', description: 'Projecto en Nodejs, y pug de una agencia de viajes', image: '/public/assets/AgenciaViajes.png', link: 'https://agencia-de-viajes-ohyl.onrender.com/' },
-    { id: 3, title: 'School System', description: 'Sistema de Gestion de Clases, usando Django, Html y Tailwindcss', image: '/public/assets/SchoolSystem.png', link: 'https://github.com/JorgeluisMF/SchoolSystem' },
-  ];
+const projects = [
+  {
+    id: 1,
+    title: 'JournalApp',
+    description: 'Projecto de notasProjecto de notas, creado con react y firebase, sistema de authenticacion y sistema de CRUD para las notas',
+    image: journalAppImg,
+    link: 'https://react-proyects-6fedb.web.app'
+  },
+  {
+    id: 2,
+    title: 'Agencia de Viajes',
+    description: 'Projecto en Nodejs, y pug de una agencia de viajes',
+    image: agenciaViajesImg,
+    link: 'https://agencia-de-viajes-ohyl.onrender.com/'
+  },
+  {
+    id: 3,
+    title: 'School System',
+    description: 'Sistema de Gestion de Clases, usando Django, Html y Tailwindcss',
+    image: schoolSystemImg,
+    link: 'https://github.com/JorgeluisMF/SchoolSystem'
+  },
+];
 
   return (
     <section id="projects" className="py-20 bg-gray-50 px-6">
