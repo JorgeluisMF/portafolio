@@ -1,10 +1,11 @@
 // src/components/Projects.tsx
+``
 export default function Projects() {
     
   const projects = [
-    { id: 1, title: 'JournalApp', description: 'Projecto de notas, creado con react y firebase, sistema de authenticacion y sistema de CRUD para las notas', image: '/src/assets/JournalApp.png', link: 'https://react-proyects-6fedb.web.app' },
-    { id: 2, title: 'Agencia de Viajes', description: 'Projecto en Nodejs, y pug de una agencia de viajes', image: '/src/assets/AgenciaViajes.png', link: 'https://agencia-de-viajes-ohyl.onrender.com/' },
-    { id: 3, title: 'School System', description: 'Sistema de Gestion de Clases, usando Django, Html y Tailwindcss', image: '/src/assets/SchoolSystem.png', link: 'https://github.com/JorgeluisMF/SchoolSystem' },
+    { id: 1, title: 'JournalApp', description: 'Projecto de notas, creado con react y firebase, sistema de authenticacion y sistema de CRUD para las notas', image:'/public/assets/JournalApp.png', link: 'https://react-proyects-6fedb.web.app' },
+    { id: 2, title: 'Agencia de Viajes', description: 'Projecto en Nodejs, y pug de una agencia de viajes', image: '/public/assets/AgenciaViajes.png', link: 'https://agencia-de-viajes-ohyl.onrender.com/' },
+    { id: 3, title: 'School System', description: 'Sistema de Gestion de Clases, usando Django, Html y Tailwindcss', image: '/public/assets/SchoolSystem.png', link: 'https://github.com/JorgeluisMF/SchoolSystem' },
   ];
 
   return (

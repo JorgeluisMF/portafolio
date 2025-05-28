@@ -1,5 +1,6 @@
 // src/components/Home.tsx
 import { motion } from 'framer-motion';
+import foto  from '/public/assets/foto.jpg'
 
 export default function Home() {
   return (
@@ -33,7 +34,7 @@ export default function Home() {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="/src/assets/foto.jpg"
+            src={ foto }
             alt="Ilustración"
             className="w-full max-h-[400px] object-contain"
           />
